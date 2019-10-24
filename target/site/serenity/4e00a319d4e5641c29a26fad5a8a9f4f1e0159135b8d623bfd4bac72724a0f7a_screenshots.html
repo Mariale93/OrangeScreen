@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="1ffa2dbfc83e783cc27ee446b746ee1c8d54be97c3d3d4daa1368d241bad9465.html">Web Automation Orange Hrm Demo</a></span>
+                > <span class="truncate-60"><a
+                    href="4e00a319d4e5641c29a26fad5a8a9f4f1e0159135b8d623bfd4bac72724a0f7a.html">Access the page and registered </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-10-2019 16:28</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Web Automation Orange Hrm Demo </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a web user
+wants to access menu PIM
+To register a employee and visualize the new employee
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Access the page and registered
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="d7659c9abc10ab11430055bec05b1005339ad4c3767f897e3e07471494225ee7.png" title="Given that Juan needs to create an employee at the OrageHR" width="1366"/>
+                <img src="189d312a64781cec4fd682200e95389748830d9cb3fef625b0c19fa2dd700035.png" title="Juan opens the Open interface" width="1366"/>
+                <img src="d7659c9abc10ab11430055bec05b1005339ad4c3767f897e3e07471494225ee7.png" title="Juan clicks on Boton submit" width="1366"/>
+                <img src="bf6036dcb2c0e2f53b069053c46b85a81d946db4d10224622b01c65c52da81e0.png" title="When he makes the registration entry in the application
+| first_name | middle_name | last_name | location | other_id | date_of_birth | marital_status | gender | nationality | drives_license_number | license_expiry_date | nick_name | military_service | smoker | blood_group | hobbies | effective_from | region | fte | temporary_department |
+| Juan | Jose | Rodr&iacute;guez | Australian Regional HQ | 1111 | 1996-19-10 | Single | Male | Albanian | 123456789 | 2020-25-05 | Liche | 987654321 | YES | AB | Soccer, Movies | 2019-11-09 | Region-1 | 0.5 | Sub unit-1 |" width="1366"/>
+                <img src="28c2d49474ac765ebd0bf3c8ee67c0defbd7877dba38d93fb3644bc21a8ed1bc.png" title="Juan clicks on desplegar menu" width="1366"/>
+                <img src="18b983e258bde7cc10399edb8a4d9953d61d3ccfb5a2def03e101a8bd7e1e1dd.png" title="Juan clicks on seleccionar agregar empleado" width="1366"/>
+                <img src="7373c3d95cd68ed44be5a9779c180328eb52eb2a78f8cda794eedef2da325ac4.png" title="Juan enters 'Juan' into primer nombre" width="1366"/>
+                <img src="fa7c3b7bca1247a6b1e62fc6e607478af0d86b11382ea5b7ee298da5dffc97d7.png" title="Juan enters 'Jose' into segundo nombre" width="1366"/>
+                <img src="aa60aaeb7a98ebe54d8d5dff1f196a0653e8ad06344e88991a61f68a51c32a6e.png" title="Juan enters 'Rodr&iacute;guez' into apellidos" width="1366"/>
+                <img src="7cc09fcdd148d1606165a81ba5145f432d8394c3ff66c45cc8af97181ca24d65.png" title="Juan clicks on ciudad" width="1366"/>
+                <img src="09cae3f9d29787fc1e27057a02775ca0b641dbdf9c7b5b98423168cf464fc09b.png" title="Juan clicks on australia regional" width="1366"/>
+                <img src="0a93f30058579851b9e997eda63d90dd5a6533503eee1c2272461a60ef839f82.png" title="Juan clicks on boton siguiente" width="1366"/>
+                <img src="e63c4674b7989e9e3127d1a7486dc85b4c28c22cb156bfffec5f0c2670d225cf.png" title="Juan enters '1111' into other id" width="1366"/>
+                <img src="64a5c0ec6ba727e8a2f6c74650fa1975222b4ebe9521655c135432849410cebf.png" title="Juan enters '1996-19-10' into fecha de nacimiento" width="1366"/>
+                <img src="bf6036dcb2c0e2f53b069053c46b85a81d946db4d10224622b01c65c52da81e0.png" title="Then he visualizes the new employee in the application: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
